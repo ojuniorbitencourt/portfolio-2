@@ -8,8 +8,14 @@
     padding: 1em 0 0.5em 0;
 }
 
-.swiper-slide img {
+/* .swiper-slide img {
     width: 100%;
+} */
+
+.swiper-slide a img {
+    width: 70%;
+    padding: 1em;
+
 }
 
 .swiper-button-prev,
@@ -62,6 +68,7 @@
     color: var(--laranja);
     font-weight: 700;
     text-align: center;
+    padding-top: 1em;
 }
 
 .descrição__titulo-livro {

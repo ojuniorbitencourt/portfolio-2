@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Júnior Bitencourt</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <!-- Menu -->
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+            <img src="img/logo.png" alt="Logo da Alurabooks" class="container__imagem container__imagem__tamanho">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Júnior</b>Bitencourt</h1>
+        </div>
+
+        <ul class="opcoes">
+                <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+                <label for="opcoes-menu" class="opcoes__rotulo">
+                    <li class="opcoes__item">Categorias</li>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Front-end</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Programação</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Design & UX</a>
+                    </li>
+                </ul>
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Meus Certificados</a></li>
+        </ul>
+        <!-- Ícones do menu -->
+        <div class="container">
+            <a href="#">
+                <img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente">
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu Perfil</p>
+            </a>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <main>
+        <section class="banner">
+            <h2 class="banner__titulo">Júnior Bitencourt</h2>
+            <!-- <p class="banner__texto">Agora você vai ver alguns dos meus melhores projetos...</p> -->
+            <!-- <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?"> -->
+        </section>
+    </main>
+    <!-- 1 Session -->
+    <section class="carrossel">
+        <h2 class="carrossel__titulo"></h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/jr.png" alt="Livro sobre Apache Kafka"></div>
+                    <div class="swiper-slide"><img src="img/jr.png" alt="Livro sobre liderança"></div>
+                    <div class="swiper-slide"><img src="img/jr.png" alt="Livro sobre "></div>
+                    <div class="swiper-slide"><img src="img/jr.png" alt="Livro sobre Guia Front-end"></div>
+                    <div class="swiper-slide"><img src="img/jr.png" alt="Livro sobre Portugol"></div>
+                    <div class="swiper-slide"><img src="img/jr.png" alt="Livro sobre Acessibilidade"></div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+            </div>
+            <!-- Card -->
+            <div class="card">
+                <!-- 1° Linha -->
+                <div class="card__descrição">
+                    <!-- 1° Coluna -->
+                    <div class="descrição">
+                        <h3 class="descrição__titulo">Me chamo Júnior Bitencourt</h3>
+                        <h2 class="descrição__titulo-livro">JR Dev Front-end</h2>
+                        <p class="descrição__texto">Possuo habilidades em HTML, CSS e JavaScript. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+                    </div>
+                    <!-- 2° Coluna -->
+                    <img src="img/jr.png" alt="Foto do Júnior" class="descrição__imagem">
+                </div>
+                <!-- 2° Linha -->
+                <div class="card__botões">
+                    <!-- 1° Coluna -->
+                    <!-- <ul class="botões">
+                        <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar livro no carrinho de compras"></li>
+                    </ul> -->
+                    <!-- 2° Coluna -->
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contato -->
+    <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
+        <input type="email" placeholder="Cadastre o seu melhor e-mail" class="contato__email">
+    </section>
+
+    <!-- Quebra de Linha/Quebra de contexto -->
+    <hr/>
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Júnior Bitencourt</h2>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Redes Sociais</li>
+            <li class="lista-rodape__item">
+                <img src="img/linkedin.svg" alt="Logo do LinkedIn">
+                <a href="#" class="lista-rodape__link">LinkedIn</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/github.svg" alt="Logo da Caelum">
+                <a href="#" class="lista-rodape__link">GitHub</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>

@@ -6,6 +6,7 @@
 @import url("styles/rodape.css");
 
 :root {
+    --degrade-principal: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
     --laranja: #F6F1F1;
@@ -19,8 +20,9 @@
 }
 
 body {
-    background-color: var(--preto);
+    background-image: var(--degrade-principal);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    /* height: 100vw; */
 }

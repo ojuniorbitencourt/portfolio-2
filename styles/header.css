@@ -111,9 +111,17 @@
         text-transform: uppercase;
     }
 
+    .opcoes__item:hover {
+        color: var(--branco);
+    }
+
     .opcoes__link {
         text-decoration: none;
         color: var(--preto);
+    }
+
+    .opcoes__link:hover {
+        color: var(--branco);
     }
 
     .container__imagem-transparente {
@@ -177,5 +185,9 @@
         display: block;
         color: var(--preto);
         text-decoration: none;
+    }
+
+    .container__texto:hover {
+        color: var(--branco);
     }
 }

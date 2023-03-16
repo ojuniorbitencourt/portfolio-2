@@ -12,14 +12,13 @@
     padding: 1em 0 0.5em 0;
 }
 
-/* .swiper-slide img {
+.swiper-slide img {
     width: 100%;
-} */
+}
 
-.swiper-slide a img {
-    width: 70%;
-    padding: 1em;
-
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 .swiper-button-prev,

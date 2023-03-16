@@ -3,7 +3,6 @@ hr {
 }
 
 .rodape {
-    background-image: var(--degrade-principal);
     padding: 1em;
 }
 
@@ -57,6 +56,6 @@ hr {
 
     .rodape {
         padding: 3em 0;
-        background-image: var(--degrade-principal);
+        background-image: var(--azul-claro);
     }
 }

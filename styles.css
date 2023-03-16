@@ -17,10 +17,13 @@
     --fonte-secundaria: "Josefin Sans";
     --azul: #002F52;
     --preto: #000000;
+    --verde: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
+    --azul-gradient: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
+    --azul-claro: linear-gradient(132deg, rgba(127,198,220,1) 15%, rgba(36,163,190,1) 100%);
 }
 
 body {
-    background-image: var(--degrade-principal);
+    background-image: var(--azul-gradient);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
